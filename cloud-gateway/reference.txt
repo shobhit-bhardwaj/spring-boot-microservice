@@ -1,0 +1,25 @@
+http://localhost:8085/OrderService/order/1
+http://localhost:8085/PaymentService/payment/1
+
+
+
+Cloud API Gateway is use to access any MicroService on basis of its URL pattern. This is a single point of contact of
+all the micro services. We can also use Zuul API Gateway but Zuul don't provide gateway for the non blocking micro
+services and it is build on old servlet 2.5. Cloud API Gateway is latest and register as a Eureka Client. It contains
+mappings of all the micro services and we can access these services on single host and port which is its own host and
+port. Different services are separated by their context path or any URL pattern.
+
+
+
+Older Compatible Version
+<parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>2.2.6.RELEASE</version>
+	<relativePath /> <!-- lookup parent from repository -->
+</parent>
+
+<properties>
+	<java.version>1.8</java.version>
+	<spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+</properties>

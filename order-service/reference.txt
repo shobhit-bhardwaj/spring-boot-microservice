@@ -1,0 +1,11 @@
+http://localhost:8081/OrderService/order/save
+{
+    "name": "Laptop",
+    "quantity": 1,
+    "price": 36000
+}
+
+http://localhost:8081/OrderService/order/1
+
+http://localhost:8081/OrderService/h2-console/
+jdbc:h2:mem:order_db

@@ -1,0 +1,14 @@
+http://localhost:9000/SBConfigServer/application/default
+http://localhost:9000/SBConfigServer/application/dev
+http://localhost:9000/SBConfigServer/application/prod
+
+http://localhost:9000/SBConfigServer/sb-rest-crud-application/default
+
+
+Config Server - Config as a Service
+
+Advantages of Config Server -
+1. Externalized (property files)
+2. Environment Specific
+3. Consistent (Spring cloud config server)
+4. Version History (Git reposource)

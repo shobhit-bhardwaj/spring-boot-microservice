@@ -1,0 +1,3 @@
+Hystrix Dashboard Url	-	http://localhost:8086/hystrix
+
+Cloud Gateway Monitor Url	-	http://localhost:8085/actuator/hystrix.stream

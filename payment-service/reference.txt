@@ -1,0 +1,4 @@
+http://localhost:8082/PaymentService/payment/1
+
+http://localhost:8082/PaymentService/h2-console/
+jdbc:h2:mem:payment_db

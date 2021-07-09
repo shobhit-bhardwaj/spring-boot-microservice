@@ -1,0 +1,12 @@
+#	https://medium.com/swlh/spring-cloud-service-discovery-with-eureka-16f32068e5c7
+
+http://localhost:8761
+
+
+
+Service Discovery and Registry by Eureka -
+1. Eureka Server - This is Eureka server which acts as a master for all Eureka client.
+2. Eureka Client - Order Service and Payment Service are two Eureka Client. Order Service hits Payment Service by
+RestTemplate for making a payment. The service invokation can be direct by URL and PORT but we have a hard coded
+dependency on Url and Port, and we also can't use Load Balancer. For its resolution, we need Eureka Server in which
+we host clients and direct use them by their name.
